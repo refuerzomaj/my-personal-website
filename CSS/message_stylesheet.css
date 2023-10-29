@@ -1,0 +1,12 @@
+body{
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.message{
+    text-align: center;
+}
+.message h1{
+    font-size: 100px;
+}
