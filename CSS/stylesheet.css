@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+  .first-section{
+    margin: 10% 10% 0 10%;
+  }
+    .first-section p{
+      font-size: 20px;
+    }
+    .first-section p.name{
+      font-size: 37px;
+    }
+    .name b{
+      color: rgb(255, 196, 0);
+    }
+    .first-section p.career{
+      font-size: 30px;
+    }
+    .first-section .button_hm{
+      margin-top: 50px;
+      width: 150px;
+    }
+    .first-section .button_hm p, .first-section .button_hm a{
+      color: black;
+      padding: 15px 35px;
+      border: 1px solid black;
+      text-decoration: none;
+    }
+    .first-section .button_hm p:hover, .first-section .button_hm a:hover{
+      color: white;
+      background-color: black;
+      text-decoration: none;
+    }
+    .social_medias a img{
+      margin: 2px;
+      width: 2%;
+      border-radius: 20%;
+    }
+    .first-section .right_section, .left_section{
+      vertical-align: top;
+      width: 48%;
+      display: inline-block;
+    }
+    .fiverr-seller-widget .fiverr-seller-content .crop .fiverr-profile-img{
+        content:url("https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/bf0f66470e83c1a6db8428b29123f753-1694358342187/df2cad04-fbb4-4d0d-a840-ede51f79eb97.jpg");
+    }
+      .left_section{
+        margin: 10% 0 0 0;
+      }
+      .right_section img{
+        width: 65%;
+        border-radius: 100%;
+        border: 2px solid rgb(223, 223, 223);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .second-section {
+        margin: 80px 0 0 0;
+        padding: 150px 80px;
+        background-position: center;
+        background: url(../Images/bg-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .second-section h2{
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .second-section .box{
+      width: 60vw;
+      margin: 0 auto;
+      padding: 80px;
+      background: white;
+      border: 2px solid rgb(223, 223, 223);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      font-size: auto;
+      color: black;
+    }
+    .second-section .button_dl a {
+      color: white;
+      border: 1px solid white;
+      background: black;
+      text-decoration: none;
+  }
+  .second-section .button_dl a:hover{
+    color: black;
+    border: 1px solid black;
+    background: white;
+}
+.third-section {
+  text-align: center;
+  margin: auto;
+  padding: 80px 0;
+  background-color: rgb(240, 240, 240);
+}
+.third-section h2 {
+  margin: 0 0 50px 0;
+  font-size: 30px;
+  color: black;
+}
+
+.third-section h3 {
+  margin: 30px 0 20px 0;
+  font-size: 25px;
+}
+.third-section p {
+  line-height: 50px;
+  font-size: 25px;
+}
+.fourth-section {
+  text-align: center;
+  padding: 80px 0;
+}
+.fourth-section h2{
+  margin-bottom: 40px;
+}
+@media only screen and (max-width: 880px) {
+    .first-section{
+      margin: 10% 20% 10% 20%;
+    }
+    .first-section p{
+      font-size: 25px;
+    }
+    .first-section p.name{
+      font-size: 27px;
+    }
+    .first-section p.career{
+      font-size: 25px;
+    }
+    .first-section .right_section{
+      width: 150px;
+      display: block;
+      margin: 0 auto;
+    }
+    .left_section {
+      margin: 0 auto;
+      width: 280px;
+      display: block;
+  }
+  .first-section .button_hm {
+    margin-top: 30px;
+    width: 130px;
+}
+.first-section .button_hm p{
+  font-size: 15px;
+}
+      .right_section img{
+        margin: 10% 0 0 0;
+        width: 80%;
+      }
+      .second-section{
+        padding: 150px 0;
+      }
+      .second-section .box{
+        width: 50vw;
+      }
+      .second-section .box img{
+        width: 150px;
+        height: 150px;
+    }
+    .second-section .button_dl a{
+        font-size: 15px;
+    }
+    .second-section .box h2{
+        font-size: 25px;
+    }
+    .second-section .box p{
+        font-size: 20px;
+    }
+    .third-section h2{
+      margin: 0 0 30px 0;
+      font-size: 25px;
+    }
+    .third-section h3{
+      margin: 20px 0 30px 0;
+      font-size: 20px;
+    }
+    .third-section p{
+      font-size: 15px;
+      line-height: 30px;
+    }
+}
